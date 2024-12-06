@@ -22,11 +22,10 @@ song_names = [song.getText().strip() for song in song_names_spans]
 
 #----------------------PART 2: SPOTIPY---------------------------#
 
-CLIENT_ID = "05e11a380b524bdb85f2a81176e1b565"
-CLIENT_PASS = "2097563dc3244d26ab4869a210678037"
+CLIENT_ID = "CLIENTE ID"
+CLIENT_PASS = "CLIENT PASSWORD"
 YOUR_APP_REDIRECT_URI = "http://example.com"
-redirect = "https://example.com/?code=AQC_bENwY7-sXADj2VWAY2U_-RkOlpdKXdyRrK8gFXe7s1CZVH1wZtZR76Y65pO-LsHkrDXHEKmUwF3_YMX4xGL9RhWuPuPMkz6Ui-whxiMUVUo22oQuSpnkfBWScyifqYqpmZvahOkqrZ_sODSokK_wrD5MYjpS0IuBxp-woq14ZtezBX6SD_E"
-# user_id = "22v4xege3kp7hkpmei2e42voy"
+redirect = "REDIRECT_URL"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=CLIENT_PASS,
